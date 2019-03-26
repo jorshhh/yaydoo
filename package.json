@@ -1,0 +1,23 @@
+{
+  "name": "yaydoo",
+  "version": "1.0.0",
+  "description": "Prueba tecnica yaydoo",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "run": "nodemon server.js",
+    "start": "forever start server.js",
+    "stop": "forever stop server.js"
+  },
+  "keywords": [
+    "Test"
+  ],
+  "author": "Jorge Rangel",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  },
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
